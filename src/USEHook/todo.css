@@ -3,55 +3,43 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 .head {
   text-align: center;
-  margin-top: 25px;
-  color:black;
+  margin: 0;
+  color: black;
   font-weight: bolder;
+  width: 180vh;
+  background-color: gray;
 }
 .header {
   padding: 10px;
   text-align: center;
   justify-content: center;
   align-items: center;
+  width: 100vh;
 }
 .form {
   margin: 30px;
-  
+  width: 100vh;
+  margin-left: 30%;
+  margin-right: 20%;
+  gap: 15%;
 }
 .data {
-  margin-top: 30px;
+  margin: 10px;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 .data_val {
-    display: flex;
-    margin: 10px;
-    padding: 14px;
-    justify-content: space-between;
-    width: 100%;
-    height: 60px;
-    box-shadow: rgba(100,100,111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  padding: 14px;
+  justify-content: space-between;
+  width: 100vh;
+  gap: 80px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.field {
-    margin-top: 30px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .field_val {
-    display: flex;
-    margin: 10px;
-    padding: 14px;
-    justify-content: space-between;
-    width: 100%;
-    height: 60px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    align-items: center;
-    border-radius: 5px;
-  }

@@ -1,12 +1,9 @@
-
-import TodoProject from './USEHook/TodoProject';
-
+import TodoProject from "./USEHook/TodoProject";
 
 function App() {
   return (
-    <div className="App" >
-    <TodoProject/>
-    
+    <div className="App">
+      <TodoProject />
     </div>
   );
 }
